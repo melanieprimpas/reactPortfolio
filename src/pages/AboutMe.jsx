@@ -1,64 +1,23 @@
 export default function AboutMe() {
   return (
-    <div className="container pt-4">
+    <div>
+      <h2>About Me</h2>
+      <img src="/assets/IMG_3301.JPEG" alt="Your Name" className="avatar"></img>
+   
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+          My name is Melanie and I am a 25 year old girl from the North shore of Boston, Massachusetts.
+          I have three years of experience working as a mechanical engineer for the Portsmouth Naval 
+          Shipyard. I graduated summa cum laude at Roger Williams University in 2017 with a bachelors 
+          degree in Engineering and a specialization in Mechanaical Engineering.
       </p>
-      <section className="features-icons bg-light text-center m-4">
-        <div className="container">
-          <div className="row p-2">
-            <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-window m-auto text-primary" />
-                </div>
-                <h3>Fully Responsive</h3>
-                <p className="lead mb-0">
-                  This theme will look great on any device, no matter the size!
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-layers m-auto text-primary" />
-                </div>
-                <h3>Bootstrap 5 Ready</h3>
-                <p className="lead mb-0">
-                  Featuring the latest build of the new Bootstrap 5 framework!
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-terminal m-auto text-primary" />
-                </div>
-                <h3>Easy to Use</h3>
-                <p className="lead mb-0">
-                  Ready to use with your own content, or customize the source
-                  files!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
-      </p>
+          In my free time I enjoy going for walks outside, going to the beach, hiking and exploring new areas. 
+          I also enjoy spending time with my family, cooking, reading, and attending spin classes. 
+        </p>
+        <p>
+          Some important goals for me are to widen my skillset in software development and coding which I hope 
+          to accomplish in the University of New Hampshire Coding Boot Camp.   
+        </p>
     </div>
   );
 }

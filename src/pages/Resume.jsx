@@ -1,7 +1,7 @@
 export default function Resume() {
     return (
       <div>
-        <h1>Resume</h1>
+        <h2>Resume</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

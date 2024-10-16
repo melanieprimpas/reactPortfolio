@@ -1,8 +1,8 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project was to create a Portfolio using React and React Router. The portfolio was to have four tabs with the default tab being an About Me page, and additional pages for the portfolio, a contact page and a resume page.  This project also required and updating the CSS of the portfolio using Bootstrap, manual updating of the CSS files and utilizing direct styling within the JSX files. 
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Link to Deployed App

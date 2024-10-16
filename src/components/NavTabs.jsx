@@ -12,7 +12,6 @@ const styles = {
         justifyContent: 'space-between',
         color: "#ffffff",
         fontFamily: "cursive",
-        fontSize: "60px"
         
     },
     h1: {
@@ -22,7 +21,6 @@ const styles = {
     item: {
         display: 'flex',
         justifyContent: 'right',
-        fontSize: "20px",
         color: "#ffffff"
     }
 }

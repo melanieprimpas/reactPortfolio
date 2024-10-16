@@ -1,6 +1,6 @@
 import Nav from './NavTabs';
 
-export default function App() {
+export default function Header() {
   return (
     <>
       <Nav />

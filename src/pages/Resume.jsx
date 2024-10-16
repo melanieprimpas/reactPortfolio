@@ -1,19 +1,23 @@
 export default function Resume() {
-    return (
-      <div>
-        <h2>Resume</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
-        </p>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <h2>Resume</h2>
+      <a href="https://drive.google.com/file/d/16hYBBP8f4pzrm00wtOtUnoMhnAXB3e-5/view?usp=sharing" target="_blank" className = "ms-5">To View My Resume Click Here!</a>
+      <section className = "proficiencies-list">
+        <h3>Front End Proficiencies:</h3>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+
+        <h3>Back End Proficiencies:</h3>
+        <li>API</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySQL</li>
+        
+      </section>
+    </div>
+  );
+}
